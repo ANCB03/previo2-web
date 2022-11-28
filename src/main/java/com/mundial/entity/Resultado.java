@@ -16,7 +16,7 @@ public class Resultado implements Serializable {
     @ManyToOne
     @JoinColumn(name = "id",insertable = false,updatable = false)
     private Seleccion seleccion_id;
-    private int goles;
-    private int amarillas;
-    private int rojas;
+    private Integer goles;
+    private Integer amarillas;
+    private Integer rojas;
 }
