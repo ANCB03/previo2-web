@@ -49,7 +49,7 @@ public class ResultadoController {
             Resultado resultadoReturn = resultadoCurrent.get();
 
 
-            resultadoReturn.setPartido_id((resultado.getPartido_id());
+            resultadoReturn.setPartido_id((resultado.getPartido_id()));
             resultadoReturn.setSeleccion_id(resultado.getSeleccion_id());
             resultadoReturn.setGoles(resultado.getGoles());
             resultadoReturn.setAmarillas(resultado.getAmarillas());
