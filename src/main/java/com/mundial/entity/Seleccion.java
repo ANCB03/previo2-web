@@ -13,7 +13,7 @@ public class Seleccion implements Serializable {
     private int id;
     private String nombre;
     @ManyToOne
-    @JoinColumn(name = "id")
+    @JoinColumn(name = "id",insertable = false,updatable = false)
     private Continente continente_id;
     private String grupo;
 

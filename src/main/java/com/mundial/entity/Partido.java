@@ -14,6 +14,6 @@ public class Partido implements Serializable {
     private int id;
     private Date fecha;
     @ManyToOne
-    @JoinColumn(name = "id")
+    @JoinColumn(name = "id",insertable = false,updatable = false)
     private Estadio estadio_id;
 }

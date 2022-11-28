@@ -11,10 +11,10 @@ public class Resultado implements Serializable {
     @Id
     private int id;
     @ManyToOne
-    @JoinColumn(name = "id")
+    @JoinColumn(name = "id",insertable = false,updatable = false)
     private Partido partido_id;
     @ManyToOne
-    @JoinColumn(name = "id")
+    @JoinColumn(name = "id",insertable = false,updatable = false)
     private Seleccion seleccion_id;
     private int goles;
     private int amarillas;
